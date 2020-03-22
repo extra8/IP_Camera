@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IP_Camera", "IP_Camera\IP_Camera.csproj", "{09A218A3-FF18-48E8-9DED-0D7D8EBEFDFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09A218A3-FF18-48E8-9DED-0D7D8EBEFDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A218A3-FF18-48E8-9DED-0D7D8EBEFDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A218A3-FF18-48E8-9DED-0D7D8EBEFDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A218A3-FF18-48E8-9DED-0D7D8EBEFDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3207A1F1-D3F6-494B-893D-A72846AF9D3C}
+	EndGlobalSection
+EndGlobal
