@@ -5,24 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IP_Camera"
         mc:Ignorable="d"
-        Title="IP - Camera" Height="550" Width="815"
+        Title="IP - Camera" Height="600" Width="815"
         ResizeMode="NoResize">
     <Grid>
-        <Image HorizontalAlignment="Left" Height="189" VerticalAlignment="Top" Width="156" Margin="627,286,0,0" Source="Assets/cables-bottom.png" Stretch="UniformToFill"/>
-        <Image Source="Assets/cables-top.png" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="210" Margin="647,15,0,0" RenderTransformOrigin="0.5,0.5">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleY="-0.322"/>
-                    <RotateTransform/>
-                    <TranslateTransform Y="-0.494"/>
-                </TransformGroup>
-            </Image.RenderTransform>
+        <Image HorizontalAlignment="Left" Height="190" VerticalAlignment="Top" Width="155" Margin="626,325,0,0" Source="Assets/cables-bottom.png" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="210" Margin="636,10,0,0" Source="Assets/cables-top.png" Stretch="UniformToFill">
         </Image>
-        <Border BorderBrush="Black" BorderThickness="5" Height="490" VerticalAlignment="Top" Width="650" Margin="10,10,100,0">
-            <Image x:Name="VideoDisplay" Width="640" Height="480" VerticalAlignment="Top"/>
+        <Border BorderBrush="Black" BorderThickness="5" Height="490" VerticalAlignment="Top" Width="650" Margin="10,50,100,0">
+            <Image x:Name="VideoDisplay" Width="640" Height="480" VerticalAlignment="Top"  />
         </Border>
         <Button x:Name="ConnectButton" FontWeight="Bold" BorderThickness="3" BorderBrush="Black" Content="Connect" HorizontalAlignment="Left" Margin="700,12,0,0" VerticalAlignment="Top" Width="80" Height="25" Click="ConnectButton_Clicked"/>
-        <Button x:Name="DisconnectButton" FontWeight="Bold" BorderThickness="3" BorderBrush="Black" Content="Disconnect" HorizontalAlignment="Left" Margin="700,475,0,0" VerticalAlignment="Top" Width="80" Height="25" Click="DisconnectButton_Clicked"/>
+        <Button x:Name="DisconnectButton" FontWeight="Bold" BorderThickness="3" BorderBrush="Black" Content="Disconnect" HorizontalAlignment="Left" Margin="700,515,0,0" VerticalAlignment="Top" Width="80" Height="25" Click="DisconnectButton_Clicked"/>
+        <Label Content="Source link:" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="13"/>
+        <TextBox Name="CameraUrlTextBox" HorizontalAlignment="Left" Height="25" Margin="120,13,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="560" FontSize="15" BorderThickness="3" BorderBrush="Black"/>
     </Grid>
 </Window>
