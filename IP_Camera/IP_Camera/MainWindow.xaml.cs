@@ -46,8 +46,6 @@ namespace IP_Camera
             return image;
         }
 
-
-        // http://192.168.1.9:4747/video
         private void ConnectButton_Clicked(object sender, RoutedEventArgs e)
         {
             var streamSource = ProcessCameraUrl(CameraUrlTextBox.Text);
@@ -58,6 +56,7 @@ namespace IP_Camera
             stream.Start();
         }
 
+        // http://192.168.1.9:4747/video
         private string ProcessCameraUrl(string cameraUrl)
         {
             var lowerCameraUrl = cameraUrl.ToLower();
